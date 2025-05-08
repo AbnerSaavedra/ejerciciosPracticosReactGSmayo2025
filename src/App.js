@@ -10,6 +10,7 @@ import MensajeTernario from './components/MensajeCondOperadorTernario';
 import MensajeDobleOperador from './components/MensajeCondDobleOpAmpersand';
 import Lista from './components/Lista';
 import ListaDestacados from './components/ListaDestacados';
+import ListaQuimicos from './components/FilteredList';
 
 function App() {
 
@@ -43,6 +44,10 @@ function App() {
       <MensajeDobleOperador mensaje="Mensaje doble operador "/>
       <Lista items={items} />
       <ListaDestacados />
+      <h1>
+        Lista de químicos destacados
+      </h1>
+      <ListaQuimicos />
     </div>
   );
 }
