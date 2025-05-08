@@ -7,6 +7,7 @@ import Calculadora from './components/Calculadora';
 import Saludo from './components/Saludo';
 import MensajeCondicional from './components/MesajeCondicional';
 import MensajeTernario from './components/MensajeCondOperadorTernario';
+import MensajeDobleOperador from './components/MensajeCondDobleOpAmpersand';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <MensajeCondicional mensaje="Mensaje condicional" />
       {/*<MensajeCondicional mensaje={false} />*/}
       <MensajeTernario mensaje="Mensaje ternario" />
+      <MensajeDobleOperador mensaje="Mensaje doble operador "/>
     </div>
   );
 }
