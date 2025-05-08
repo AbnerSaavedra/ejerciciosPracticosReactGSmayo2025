@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Mensaje from './components/Mensaje';
 import MensajeProps from './components/MensajeProps';
+import DatosPersonales from './components/DatosPersonales';
+import Calculadora from './components/Calculadora';
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
       </header>*/}
       <Mensaje /> 
       <MensajeProps mensaje="Mensaje props" />
+      <DatosPersonales edad="20"/>
+      <Calculadora a={5} b={10}/>
+      {/*<Calculadora a="5" b="10"/>*/}
     </div>
   );
 }
