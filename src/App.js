@@ -5,6 +5,7 @@ import MensajeProps from './components/MensajeProps';
 import DatosPersonales from './components/DatosPersonales';
 import Calculadora from './components/Calculadora';
 import Saludo from './components/Saludo';
+import MensajeCondicional from './components/MesajeCondicional';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       <Calculadora a={5} b={10}/>
       {/*<Calculadora a="5" b="10"/>*/}
       <Saludo nombre="Abner" />
+      <MensajeCondicional mensaje="Mensaje condicional" />
+      {/*<MensajeCondicional mensaje={false} />*/}
     </div>
   );
 }
