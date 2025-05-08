@@ -8,8 +8,13 @@ import Saludo from './components/Saludo';
 import MensajeCondicional from './components/MesajeCondicional';
 import MensajeTernario from './components/MensajeCondOperadorTernario';
 import MensajeDobleOperador from './components/MensajeCondDobleOpAmpersand';
+import Lista from './components/Lista';
+import ListaDestacados from './components/ListaDestacados';
 
 function App() {
+
+  const items =  [{id: 1, number: 35}, {id: 1, number: 1}, {id: 1, number: 10}, {id: 1, number: 34}, {id: 1, number: 1}]
+
   return (
     <div className="App">
       {/*<header className="App-header">
@@ -36,6 +41,8 @@ function App() {
       {/*<MensajeCondicional mensaje={false} />*/}
       <MensajeTernario mensaje="Mensaje ternario" />
       <MensajeDobleOperador mensaje="Mensaje doble operador "/>
+      <Lista items={items} />
+      <ListaDestacados />
     </div>
   );
 }
