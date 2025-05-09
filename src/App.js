@@ -11,10 +11,16 @@ import MensajeDobleOperador from './components/MensajeCondDobleOpAmpersand';
 import Lista from './components/Lista';
 import ListaDestacados from './components/ListaDestacados';
 import ListaQuimicos from './components/FilteredList';
+import Boton from './components/Boton';
+import BotonPersonalizado from './components/BotonRespEvento';
 
 function App() {
 
   const items =  [{id: 1, number: 35}, {id: 1, number: 1}, {id: 1, number: 10}, {id: 1, number: 34}, {id: 1, number: 1}]
+
+  const manejarOnClick = (usuario) =>{
+    console.log(`El usuario ${usuario} ha clickeado.`)
+  }
 
   return (
     <div className="App">
@@ -31,23 +37,31 @@ function App() {
         >
           Learn React with GracoSoft
         </a>
-      </header>*/}
+      </header>
       <Mensaje /> 
       <MensajeProps mensaje="Mensaje props" />
       <DatosPersonales edad="20"/>
       <Calculadora a={5} b={10}/>
       {/*<Calculadora a="5" b="10"/>*/}
-      <Saludo nombre="Abner" />
+      {/*<Saludo nombre="Abner" />
       <MensajeCondicional mensaje="Mensaje condicional" />
       {/*<MensajeCondicional mensaje={false} />*/}
-      <MensajeTernario mensaje="Mensaje ternario" />
+      {/*<MensajeTernario mensaje="Mensaje ternario" />
       <MensajeDobleOperador mensaje="Mensaje doble operador "/>
       <Lista items={items} />
       <ListaDestacados />
       <h1>
         Lista de químicos destacados
       </h1>
-      <ListaQuimicos />
+      <ListaQuimicos />*/}
+      <Boton />
+      <br/>
+      {/*<BotonPersonalizado 
+        texto="Enviar"
+        mensaje="Botón personalizado clickeado"
+        usuario="Abner"
+        onClick={manejarOnClick}
+      />*/}
     </div>
   );
 }
