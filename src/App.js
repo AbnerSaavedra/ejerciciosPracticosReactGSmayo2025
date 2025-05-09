@@ -13,13 +13,18 @@ import ListaDestacados from './components/ListaDestacados';
 import ListaQuimicos from './components/FilteredList';
 import Boton from './components/Boton';
 import BotonPersonalizado from './components/BotonRespEvento';
+import ComponenteHijo from './components/ComponenteHijo';
 
 function App() {
 
   const items =  [{id: 1, number: 35}, {id: 1, number: 1}, {id: 1, number: 10}, {id: 1, number: 34}, {id: 1, number: 1}]
 
   const manejarOnClick = (usuario) =>{
-    console.log(`El usuario ${usuario} ha clickeado.`)
+    console.log(`El usuario ${usuario} ha clickeado el botón.`)
+  }
+
+  const manejarOnClick2 = (id) =>{
+    console.log(`Botón clickeado con el id ${id}`)
   }
 
   return (
@@ -56,12 +61,14 @@ function App() {
       <ListaQuimicos />*/}
       <Boton />
       <br/>
-      {/*<BotonPersonalizado 
+      <BotonPersonalizado 
         texto="Enviar"
         mensaje="Botón personalizado clickeado"
         usuario="Abner"
         onClick={manejarOnClick}
-      />*/}
+      />
+      <br/>
+      <ComponenteHijo onClick={manejarOnClick2} id={123}/>
     </div>
   );
 }
