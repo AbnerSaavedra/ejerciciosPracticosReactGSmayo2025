@@ -17,6 +17,7 @@ import ComponenteHijo from './components/ComponenteHijo';
 import ComponentePadre from './components/PropagacionDeEventos';
 import Contador from './components/EstadoComponente';
 import ContadorTimeout from './components/ContadorSetTimeOut';
+import ContadorPorLotes from './components/ActualizacionEstadosPorLotes';
 
 function App() {
 
@@ -75,6 +76,7 @@ function App() {
       <ComponentePadre />
       <Contador />
       <ContadorTimeout />
+      <ContadorPorLotes />
     </div>
   );
 }

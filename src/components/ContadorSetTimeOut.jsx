@@ -9,8 +9,12 @@ export default function ContadorTimeout(){
     const incrementarContador = () => {
 
         setTimeout(() => {
-            console.log("Contador dentro del setTimeout", contador)
+            console.log("Contador dentro del setTimeout antes", contador)
+            
             setContador(contador + 1)
+
+            console.log("Contador dentro del setTimeout después", contador)
+
         }, 3000);
     }
 
