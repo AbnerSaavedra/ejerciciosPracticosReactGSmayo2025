@@ -14,6 +14,7 @@ import ListaQuimicos from './components/FilteredList';
 import Boton from './components/Boton';
 import BotonPersonalizado from './components/BotonRespEvento';
 import ComponenteHijo from './components/ComponenteHijo';
+import ComponentePadre from './components/PropagacionDeEventos';
 
 function App() {
 
@@ -69,6 +70,7 @@ function App() {
       />
       <br/>
       <ComponenteHijo onClick={manejarOnClick2} id={123}/>
+      <ComponentePadre />
     </div>
   );
 }
