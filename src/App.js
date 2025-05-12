@@ -15,6 +15,8 @@ import Boton from './components/Boton';
 import BotonPersonalizado from './components/BotonRespEvento';
 import ComponenteHijo from './components/ComponenteHijo';
 import ComponentePadre from './components/PropagacionDeEventos';
+import Contador from './components/EstadoComponente';
+import ContadorTimeout from './components/ContadorSetTimeOut';
 
 function App() {
 
@@ -71,6 +73,8 @@ function App() {
       <br/>
       <ComponenteHijo onClick={manejarOnClick2} id={123}/>
       <ComponentePadre />
+      <Contador />
+      <ContadorTimeout />
     </div>
   );
 }

@@ -20,7 +20,7 @@ function ComponenteHijo(){
 
     const handleClickHijo = (event) => {
         //Para detener la propagación del evento al componente Padre
-        event.stopPropagation()
+        //event.stopPropagation()
         console.log("Click en el componente Hijo.")
     }
 
