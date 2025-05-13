@@ -19,6 +19,8 @@ import Contador from './components/EstadoComponente';
 import ContadorTimeout from './components/ContadorSetTimeOut';
 import ContadorPorLotes from './components/ActualizacionEstadosPorLotes';
 import Formulario from './components/ActObjetosEstado';
+import ListaLectura from './components/ActObjetosEstadoSoloLectura';
+import SintaxisExtendida from './components/ActObjetoConSintaxisExtendida';
 
 function App() {
 
@@ -77,8 +79,10 @@ function App() {
       <ComponentePadre />
       <Contador />
       <ContadorTimeout />
-      <ContadorPorLotes />*/}
+      <ContadorPorLotes />
       <Formulario />
+      <ListaLectura />*/}
+      <SintaxisExtendida />
     </div>
   );
 }
