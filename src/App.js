@@ -21,6 +21,7 @@ import ContadorPorLotes from './components/ActualizacionEstadosPorLotes';
 import Formulario from './components/ActObjetosEstado';
 import ListaLectura from './components/ActObjetosEstadoSoloLectura';
 import SintaxisExtendida from './components/ActObjetoConSintaxisExtendida';
+import FormularioConImmer from './components/ActObjetosEstadoConImmer';
 
 function App() {
 
@@ -81,8 +82,9 @@ function App() {
       <ContadorTimeout />
       <ContadorPorLotes />
       <Formulario />
-      <ListaLectura />*/}
-      <SintaxisExtendida />
+      <ListaLectura />
+      <SintaxisExtendida />*/}
+      <FormularioConImmer />
     </div>
   );
 }
