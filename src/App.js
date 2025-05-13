@@ -18,6 +18,7 @@ import ComponentePadre from './components/PropagacionDeEventos';
 import Contador from './components/EstadoComponente';
 import ContadorTimeout from './components/ContadorSetTimeOut';
 import ContadorPorLotes from './components/ActualizacionEstadosPorLotes';
+import Formulario from './components/ActObjetosEstado';
 
 function App() {
 
@@ -62,7 +63,7 @@ function App() {
       <h1>
         Lista de químicos destacados
       </h1>
-      <ListaQuimicos />*/}
+      <ListaQuimicos />
       <Boton />
       <br/>
       <BotonPersonalizado 
@@ -76,7 +77,8 @@ function App() {
       <ComponentePadre />
       <Contador />
       <ContadorTimeout />
-      <ContadorPorLotes />
+      <ContadorPorLotes />*/}
+      <Formulario />
     </div>
   );
 }
