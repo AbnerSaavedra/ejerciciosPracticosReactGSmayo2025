@@ -22,7 +22,7 @@ import Formulario from './components/ActObjetosEstado';
 import ListaLectura from './components/ActObjetosEstadoSoloLectura';
 import SintaxisExtendida from './components/ActObjetoConSintaxisExtendida';
 import FormularioConImmer from './components/ActObjetosEstadoConImmer';
-import EliminarItemArreglo from './components/ActObjetosEstadoSoloLectura';
+import AgregarItemArreglo from './components/ActObjetosEstadoSoloLectura';
 import ListaEliminarItem from './components/EliminarElementoArrayEstadoInmutable';
 import TablaDeElementos from './components/TablaElementos';
 
@@ -88,7 +88,7 @@ function App() {
       <ListaLectura />
       <SintaxisExtendida />
       <FormularioConImmer />
-      <EliminarItemArreglo />*/}
+      <AgregarItemArreglo />*/}
       <ListaEliminarItem />
       <TablaDeElementos />
     </div>

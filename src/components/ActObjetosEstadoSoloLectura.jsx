@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-export default function EliminarItemArreglo(){
+export default function AgregarItemArreglo(){
 
     const [items, setItems] = useState(['Manzana', 'Cambur', 'Naranja'])
 
