@@ -22,6 +22,9 @@ import Formulario from './components/ActObjetosEstado';
 import ListaLectura from './components/ActObjetosEstadoSoloLectura';
 import SintaxisExtendida from './components/ActObjetoConSintaxisExtendida';
 import FormularioConImmer from './components/ActObjetosEstadoConImmer';
+import EliminarItemArreglo from './components/ActObjetosEstadoSoloLectura';
+import ListaEliminarItem from './components/EliminarElementoArrayEstadoInmutable';
+import TablaDeElementos from './components/TablaElementos';
 
 function App() {
 
@@ -83,8 +86,11 @@ function App() {
       <ContadorPorLotes />
       <Formulario />
       <ListaLectura />
-      <SintaxisExtendida />*/}
+      <SintaxisExtendida />
       <FormularioConImmer />
+      <EliminarItemArreglo />*/}
+      <ListaEliminarItem />
+      <TablaDeElementos />
     </div>
   );
 }

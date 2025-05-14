@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-export default function ListaLectura(){
+export default function EliminarItemArreglo(){
 
     const [items, setItems] = useState(['Manzana', 'Cambur', 'Naranja'])
 
